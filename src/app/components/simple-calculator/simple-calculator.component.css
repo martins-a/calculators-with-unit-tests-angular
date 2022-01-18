@@ -1,0 +1,35 @@
+
+.calculator-rectangle {
+  width: 300px;
+  height: 300px;
+  background-color: blanchedalmond;
+  border: 1px solid black;
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+  align-items: center;
+}
+
+.result-displayer {
+  width: 100%;
+  height: 20px;
+}
+
+
+/*---*/
+
+.default-btn {
+  display: inline-block;
+  width: 90px;
+  background-color: white;
+  height: 50px;
+}
+
+.digits {
+  display: flex;
+  width: 100%;
+  text-align: center;
+  justify-content: space-between;
+  margin-top: 10px;
+  height: 160px;
+}

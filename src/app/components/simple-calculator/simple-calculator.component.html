@@ -1,0 +1,23 @@
+<div class="calculator-rectangle">
+  <input class="result-displayer" [(ngModel)]="displayerValue"/>
+
+  <div class="digits">
+    <button class="default-btn" (click)="numericBtnClick('1')">1</button>
+
+    <button class="default-btn" (click)="numericBtnClick('2')">2</button>
+
+    <button class="default-btn" (click)="numericBtnClick('3')">3</button>
+  </div>
+
+  <div class="operations">
+
+    <button class="default-btn" (click)="plusBtnClick()">
+      +
+    </button>
+
+    <button class="default-btn" (click)="equalBtnClick()">
+      =
+    </button>
+
+  </div>
+</div>
